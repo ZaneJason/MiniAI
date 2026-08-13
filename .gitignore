@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.py[cod]
+.idea/
+.vscode/
+.DS_Store
+
+# Training corpus and generated token data
+data/train.txt
+data/train.bin
+data/val.bin
+data/tokenizer.json
+data/meta.json
+
+# Model checkpoints can be many GB
+checkpoints/
+*.pt
+*.pth
